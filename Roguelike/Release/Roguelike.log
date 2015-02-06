@@ -1,0 +1,39 @@
+﻿Build started 9/15/2014 9:02:39 PM.
+     1>Project "C:\Users\Ramsey\Documents\GitHub\Roguelike\Roguelike\Roguelike.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Ramsey\Documents\GitHub\Roguelike\Release\Roguelike.exe" /NOLOGO /LIBPATH:C:\PDCurses\ kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Ramsey\Documents\GitHub\Roguelike\Release\Roguelike.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Ramsey\Documents\GitHub\Roguelike\Release\Roguelike.lib" /MACHINE:X86 /SAFESEH Release\block.obj
+         Release\Character.obj
+         Release\Enemy.obj
+         Release\graphics.obj
+         Release\Map.obj
+         Release\Play.obj
+         Release\Player.obj
+         Release\Point.obj
+         Release\Tile.obj
+     1>graphics.obj : error LNK2001: unresolved external symbol _waddch
+     1>graphics.obj : error LNK2001: unresolved external symbol _init_pair
+     1>graphics.obj : error LNK2001: unresolved external symbol _clear
+     1>graphics.obj : error LNK2001: unresolved external symbol _start_color
+     1>graphics.obj : error LNK2001: unresolved external symbol _wrefresh
+     1>graphics.obj : error LNK2001: unresolved external symbol _noecho
+     1>graphics.obj : error LNK2001: unresolved external symbol _cbreak
+     1>graphics.obj : error LNK2001: unresolved external symbol _refresh
+     1>graphics.obj : error LNK2001: unresolved external symbol _wclear
+     1>graphics.obj : error LNK2001: unresolved external symbol __imp__stdscr
+     1>graphics.obj : error LNK2001: unresolved external symbol _attroff
+     1>graphics.obj : error LNK2001: unresolved external symbol _addch
+     1>graphics.obj : error LNK2001: unresolved external symbol _attron
+     1>graphics.obj : error LNK2001: unresolved external symbol _PDC_set_blink
+     1>graphics.obj : error LNK2001: unresolved external symbol _initscr
+     1>graphics.obj : error LNK2001: unresolved external symbol _subwin
+     1>graphics.obj : error LNK2001: unresolved external symbol _resize_term
+     1>graphics.obj : error LNK2001: unresolved external symbol _keypad
+     1>graphics.obj : error LNK2001: unresolved external symbol _box
+     1>Play.obj : error LNK2001: unresolved external symbol _wgetch
+     1>Play.obj : error LNK2001: unresolved external symbol _endwin
+     1>C:\Users\Ramsey\Documents\GitHub\Roguelike\Release\Roguelike.exe : fatal error LNK1120: 21 unresolved externals
+     1>Done Building Project "C:\Users\Ramsey\Documents\GitHub\Roguelike\Roguelike\Roguelike.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.13

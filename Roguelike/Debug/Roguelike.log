@@ -1,0 +1,14 @@
+﻿  graphics.cpp
+  Tile.cpp
+  Point.cpp
+  Play.cpp
+  Enemy.cpp
+  Generating Code...
+  Compiling...
+  block.cpp
+  Map.cpp
+c:\users\ramsey\documents\github\roguelike\roguelike\map.cpp(154): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+c:\users\ramsey\documents\github\roguelike\roguelike\map.cpp(155): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+  Character.cpp
+  Generating Code...
+  Roguelike.vcxproj -> C:\Users\Ramsey\Documents\GitHub\Roguelike\Debug\Roguelike.exe

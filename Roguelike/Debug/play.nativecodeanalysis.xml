@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<DEFECTS><DEFECT><SFA><FILEPATH>c:\users\ramsey\documents\github\roguelike\roguelike\</FILEPATH><FILENAME>play.cpp</FILENAME><LINE>17</LINE><COLUMN>4</COLUMN></SFA><DEFECTCODE>6262</DEFECTCODE><DESCRIPTION>Function uses '44800' bytes of stack:  exceeds /analyze:stacksize '16384'.  Consider moving some data to heap.</DESCRIPTION><FUNCTION>main</FUNCTION><DECORATED>main</DECORATED><FUNCLINE>17</FUNCLINE><PATH/></DEFECT></DEFECTS>
