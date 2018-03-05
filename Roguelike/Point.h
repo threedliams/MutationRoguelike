@@ -54,10 +54,10 @@ namespace std{
 		}
 	};
 	inline bool operator == (const Point& lhs, const Point& rhs){
-		return (lhs.xVal == rhs.xVal) && (lhs.xVal == rhs.xVal);
+		return (lhs.xVal == rhs.xVal) && (lhs.yVal == rhs.yVal);
 	}
 	inline bool operator != (const Point& lhs, const Point& rhs){
-		return (lhs.xVal != rhs.xVal) || (lhs.xVal != rhs.xVal);
+		return (lhs.xVal != rhs.xVal) || (lhs.yVal != rhs.yVal);
 	}
 };
 
